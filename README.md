@@ -125,7 +125,7 @@ Thu 08-July-2021        Alice
 Clone the repository in Visual Studio or Jetbrains Rider and start developing.
 
 ## Future Improvement
-- Enable the schedule.csv file from commandline
+- Enable getting the schedule.csv file from commandline
 - Enable the whole input operations from commandline 
 - Enable multiple types of subscription for each customer
 - Better design on input validation.
