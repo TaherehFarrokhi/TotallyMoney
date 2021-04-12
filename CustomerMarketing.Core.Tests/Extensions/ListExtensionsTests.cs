@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using CustomerMarketing.Core.Extensions;
-using CustomerMarketing.Core.Writers;
 using FluentAssertions;
 using Xunit;
 

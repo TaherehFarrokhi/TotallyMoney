@@ -14,7 +14,7 @@ namespace CustomerMarketing.Core.Strategies
             if (subscription == null)
                 throw new ArgumentNullException(nameof(subscription));
 
-            if (subscription is not DailySubscription dailySubscription)
+            if (subscription is not DailySubscription)
                 throw new ArgumentException(null, nameof(subscription));
 
             if (numberOfDays <= 0)

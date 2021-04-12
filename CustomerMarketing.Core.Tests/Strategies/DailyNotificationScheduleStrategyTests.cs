@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using CustomerMarketing.Core.Domain;
 using CustomerMarketing.Core.Strategies;
 using FluentAssertions;

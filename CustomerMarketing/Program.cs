@@ -1,6 +1,5 @@
 ﻿using System;
 using CustomerMarketing.Core;
-using CustomerMarketing.Core.Extensions;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 

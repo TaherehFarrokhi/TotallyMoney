@@ -18,15 +18,7 @@ namespace CustomerMarketing.Core
             services.AddSingleton<INotificationScheduleStrategy, DailyNotificationScheduleStrategy>();
             services.AddSingleton<INotificationScheduleStrategy, WeeklyNotificationScheduleStrategy>();
             services.AddSingleton<INotificationScheduleStrategy, MonthlyNotificationScheduleStrategy>();
-            
-            
             return services;
         }
-    }
-
-    public class InputSettings
-    {
-        public string ColumnSeparator => "|";
-        public string ColumnValueSeparator => ",";
     }
 }

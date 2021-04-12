@@ -1,14 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using CustomerMarketing.Core.Domain;
-using CustomerMarketing.Core.Readers;
-using CustomerMarketing.Core.Strategies;
 using CustomerMarketing.Core.Writers;
 using FluentAssertions;
-using Moq;
 using Xunit;
-using Xunit.Abstractions;
 
 namespace CustomerMarketing.Core.Tests.Writers
 {

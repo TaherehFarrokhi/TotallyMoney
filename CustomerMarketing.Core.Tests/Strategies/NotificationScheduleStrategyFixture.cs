@@ -4,7 +4,7 @@ using CustomerMarketing.Core.Domain;
 
 namespace CustomerMarketing.Core.Tests.Strategies
 {
-    public class NotificationScheduleStrategyFixture
+    public sealed class NotificationScheduleStrategyFixture
     {
         private readonly Dictionary<SubscriptionMode, Func<ISubscription>> _subscriptions =
             new()

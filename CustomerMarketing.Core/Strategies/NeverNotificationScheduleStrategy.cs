@@ -13,7 +13,7 @@ namespace CustomerMarketing.Core.Strategies
             if (subscription == null)
                 throw new ArgumentNullException(nameof(subscription));
 
-            if (subscription is not NeverSubscription monthlySubscription)
+            if (subscription is not NeverSubscription)
                 throw new ArgumentException("Subscription type is not monthly", nameof(subscription));
             
             return new List<DateTime>();
